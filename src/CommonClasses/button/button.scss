@@ -1,0 +1,76 @@
+@import url(../theme/theme.scss);
+// main class of  button
+.button {
+  width: fit-content;
+  height: 25px;
+  padding: 8px 16px;
+  border: 1px solid gray;
+  text-align: center;
+  display: flex;
+  align-items: center;
+}
+// button size classes
+.btn-3xs {
+  padding: 6px 16px;
+}
+.btn-2xs {
+  padding: 8px 20px;
+}
+.btn-xs {
+  padding: 8px 24px;
+}
+.btn-x {
+  padding: 10px 28px;
+}
+.btn-sm {
+  padding: 12px 32px;
+}
+.btn-s {
+  padding: 14px 36px;
+}
+.btn-m {
+  padding: 16px 40px;
+}
+.btn-l {
+  padding: 18px 44px;
+}
+.btn-lg {
+  padding: 20px 48px;
+}
+.btn-xl {
+  padding: 22px 52px;
+}
+.btn-xxl {
+  padding: 24px 56px;
+}
+.btn-xsmall {
+  padding: 28px 65px;
+}
+.btn-small {
+  padding: 31px 70px;
+}
+.btn-md {
+  padding: 36px 75px;
+}
+// button with diffrent colors
+.button-primary {
+  background-color: #5481ca;
+  color: white;
+  &:hover {
+    background-color: hsl(218, 35%, 59%);
+  }
+}
+.button-secondary {
+  background-color: #14a032;
+  color: white;
+  &:hover {
+    background-color: #5f9f6d;
+  }
+}
+.button-red {
+  background-color: #d1332e;
+  color: white;
+  &:hover {
+    background-color: rgb(227, 127, 127);
+  }
+}
