@@ -1,4 +1,5 @@
-@import url(../theme/theme.scss);
+@import "../theme/theme.scss";
+// $primary-color: red;
 // main class of  button
 .button {
   width: fit-content;
@@ -6,8 +7,9 @@
   padding: 8px 16px;
   border: 1px solid gray;
   text-align: center;
-  display: flex;
+  display: inline-flex;
   align-items: center;
+  cursor: pointer;
 }
 // button size classes
 .btn-3xs {
@@ -52,25 +54,86 @@
 .btn-md {
   padding: 36px 75px;
 }
+// making button oval
+.btn-oval {
+  border-radius: 30px;
+}
 // button with diffrent colors
+.btn-transparent {
+  background: transparent !important;
+}
 .button-primary {
-  background-color: #5481ca;
-  color: white;
+  border-color: $primary;
+  background-color: $primary;
+  color: $white;
   &:hover {
-    background-color: hsl(218, 35%, 59%);
+    background-color: #3d89ff;
+    border-color: #3d89ff;
   }
 }
 .button-secondary {
-  background-color: #14a032;
-  color: white;
+  border-color: $secondary;
+  background-color: $secondary;
+  color: $white;
   &:hover {
-    background-color: #5f9f6d;
+    background-color: #3fab56;
+    border-color: #3fab56;
   }
 }
 .button-red {
-  background-color: #d1332e;
-  color: white;
+  border-color: $red;
+  background-color: $red;
+  color: $white;
   &:hover {
-    background-color: rgb(227, 127, 127);
+    background-color: #dc6460;
+    border-color: #dc6460;
+  }
+}
+.button-gray {
+  border-color: $gray;
+  background-color: $gray;
+  color: $white;
+  &:hover {
+    background-color: #9c9c9c;
+    border-color: #9c9c9c;
+  }
+}
+.button-base {
+  background-color: $base;
+  border-color: $base;
+  color: $white;
+  &:hover {
+    background-color: #5c5c5c;
+    border-color: #5c5c5c;
+  }
+}
+.button-o-primary {
+  background: $white;
+  border-color: $primary;
+  color: $primary;
+  &:hover {
+    background: $primary !important;
+    border-color: $primary;
+    color: $white;
+  }
+}
+.button-o-secondary {
+  background: $white;
+  border-color: $secondary;
+  color: $secondary;
+  &:hover {
+    background: $secondary !important;
+    border-color: $secondary;
+    color: $white;
+  }
+}
+.button-o-red {
+  background: $white;
+  border-color: $red;
+  color: $red;
+  &:hover {
+    background: $red !important;
+    border-color: $red;
+    color: $white;
   }
 }
