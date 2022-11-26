@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;500;600;700;800;900&family=Syne:wght@400;500;600;700;800&display=swap");
+@import url(../CommonClasses/base/base.scss);
+@import "../CommonClasses/theme/theme.scss";
+
+.second-main-container {
+  width: 92%;
+  max-width: 100%;
+  margin: auto;
+  font-family: "Syne", sans-serif;
+  .our-bussiness-heading {
+    font-size: 64px;
+    @media (max-width: 768px) {
+      font-size: 38px;
+    }
+  }
+  .organisation-info-container {
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
+    grid-column-gap: 16px;
+    @media (max-width: 768px) {
+      grid-template-columns: 1fr;
+    }
+    @media (max-width: 550px) {
+      margin-top: 25px;
+      grid-row-gap: 8px;
+    }
+    .company-info-container {
+      .bussiness-heading-item {
+        white-space: nowrap;
+        .count {
+          font-size: 196px;
+          @media (max-width: 768px) {
+            font-size: 130px;
+          }
+          @media (max-width: 550px) {
+            font-size: 64px;
+          }
+        }
+        .office-name {
+          font-size: 64px;
+          @media (max-width: 550px) {
+            font-size: 44px;
+          }
+        }
+      }
+      .bussiness-content {
+        line-height: 36px;
+        @media (max-width: 550px) {
+          line-height: 30px;
+        }
+      }
+    }
+    .divider-line {
+      background: linear-gradient(180deg, #b295f1 -12.34%, #0184ff 131.12%);
+      width: 1px;
+    }
+    .company-image-container {
+      display: flex;
+      justify-content: center;
+      .company-image-item {
+        width: 489px;
+        height: 489px;
+        @media (max-width: 1024px) {
+          width: 100%;
+          height: auto;
+        }
+        img {
+          width: 100%;
+          height: auto;
+          @media (max-width: 768px) {
+            width: 70%;
+            height: auto;
+          }
+        }
+      }
+    }
+  }
+}
