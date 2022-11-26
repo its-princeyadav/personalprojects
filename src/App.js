@@ -1,32 +1,14 @@
 import "./App.scss";
-import Image1 from "../src/asests/images/Image-1.png";
-import Navbar from "./components/Navbar ";
 
+import Navbar from "./common components/Navbar ";
+import Firstfold from "./Component/Firstfold";
+import Secondfold from "./Component/Secondfold";
 function App() {
   return (
-    <div className="App mb50">
+    <div className="App ">
       <Navbar />
-      <div className="container">
-        <div className="body-container">
-          <div className="left-body-conatiner">
-            <p className="bneed-heading-2">BNEED</p>
-            <p className=" big-heading-bneed ">
-              A New Era Of Our Digital Business Platform
-            </p>
-            <p className="container-item-2">
-              We work with you to transform your organization, driving bold
-              ideas and pragmatic solutions.
-            </p>
-            <button className=" contact-us-btn mt ">CONTACT US</button>
-          </div>
-          <div className="right-body-conatiner">
-            <img src={Image1} alt="" />
-          </div>
-        </div>
-        <div className="mt8">
-          <button className="button btn-xs">kjfeiwef</button>
-        </div>
-      </div>
+      <Firstfold />
+      <Secondfold />
     </div>
   );
 }

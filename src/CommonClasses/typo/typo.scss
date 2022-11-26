@@ -1,7 +1,18 @@
-// font family links
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;500;600;700;800;900&family=Syne:wght@500;600&display=swap");
-.poppins {
-  font-family: "Poppins", sans-serif;
+.gradiant-word-1 {
+  background: linear-gradient(
+    180deg,
+    rgba(178, 149, 241, 0.31) -24.43%,
+    rgba(1, 132, 255, 0.46) 144.03%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+.gradiant-word-2 {
+  background: linear-gradient(90.36deg, #b295f1 -10.4%, #0184ff 110%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
 }
 // fomt size scss
 
