@@ -1,14 +1,17 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;500;600;700;800;900&family=Syne:wght@400;500;600;700;800&display=swap");
 @import url(../CommonClasses/base/base.scss);
 .container {
-  width: 95%;
-  max-width: 100%;
-  margin: auto;
+  // width: 95%;
+  // max-width: 100%;
+  // margin: auto;
 
   .body-main-container {
     width: 92%;
     max-width: 100%;
     margin: auto;
+    @media (max-width: 550px) {
+      width: 100%;
+    }
     .top-container {
       display: flex;
       justify-content: space-between;
@@ -72,7 +75,7 @@
         }
       }
       .right-body-conatiner {
-        margin-right: -86px;
+        // margin-right: -86px;
         width: 50%;
         z-index: -1;
         @media (max-width: 650px) {
