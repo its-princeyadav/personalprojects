@@ -1,0 +1,25 @@
+@import url(../CommonClasses/base/base.scss);
+.third-main-container {
+  width: 92%;
+  max-width: 100%;
+  margin: auto;
+  font-family: "Syne", sans-serif;
+  @media (max-width: 550px) {
+    width: 100%;
+  }
+  .stisfied-heading {
+    margin-top: 50px;
+    @media (max-width: 550px) {
+      margin-top: 25px;
+    }
+  }
+  .about-us-heading {
+    font-size: 64px;
+    @media (max-width: 768px) {
+      font-size: 38px;
+    }
+  }
+  .aboutus-content {
+    line-height: 36px;
+  }
+}
