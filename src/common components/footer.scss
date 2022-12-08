@@ -1,0 +1,48 @@
+@import url(../CommonClasses/base/base.scss);
+.footer-container {
+  margin-top: 100px;
+  padding: 64px;
+  background-color: #202020;
+  font-family: syne;
+  .inner-footer-container {
+    display: grid;
+    grid-template-columns: 1.1fr 1fr 1fr 1fr;
+    .first-iner-container {
+      .logo-div-container-wrapper {
+        display: flex;
+        width: fit-content;
+        gap: 26px;
+        align-items: center;
+        .logo-content-wrapper {
+          position: relative;
+          &::after {
+            content: "";
+            width: 2px;
+            height: 48px;
+            background: #ffff;
+            display: inline-block;
+            position: absolute;
+            top: 0;
+            right: 89px;
+          }
+          .logo-name {
+            font-size: 24px;
+            font-weight: 400;
+            color: #ffff;
+          }
+          .mini-heading {
+            font-size: 8px;
+            font-weight: 500;
+            color: #0184ff;
+            margin-top: 2px;
+            margin-left: 5px;
+          }
+        }
+      }
+      .bneed-footer-text {
+        color: white;
+        line-height: 24px;
+      }
+    }
+  }
+}

@@ -1,6 +1,7 @@
 import "./App.scss";
 
 import Navbar from "./common components/Navbar ";
+import Footer from "./common components/Footer";
 import Firstfold from "./Component/Firstfold";
 import Secondfold from "./Component/Secondfold";
 import Aboutus from "../src/Component/Aboutus";
@@ -13,6 +14,7 @@ function App() {
       <Secondfold />
       <Aboutus />
       <Slick />
+      <Footer />
     </div>
   );
 }
