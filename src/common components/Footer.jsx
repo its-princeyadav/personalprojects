@@ -21,9 +21,41 @@ const Footer = () => {
             to ensure flawless academic and administrative activities.
           </p>
         </div>
-        <div></div>
-        <div></div>
-        <div></div>
+        <div className="second-inner-container">
+          <p className="company-first-heading">Company</p>
+          <p>Webneed</p>
+          <p>Edneed</p>
+          <p>Brandneed</p>
+        </div>
+        <div className="quick-link-container second-inner-container">
+          <p className="company-first-heading">Quick Links</p>
+          <p>Careers</p>
+          <p>About us</p>
+          <p>Contact</p>
+          <p>Our Team</p>
+        </div>
+        <div className="social-links-container">
+          <p>Soical</p>
+          <div className="social-links-wrapper">
+            <i className="fb ed-icon"></i>
+            <i className="twitter ed-icon"></i>
+            <i className="insta ed-icon"></i>
+          </div>
+        </div>
+      </div>
+      <div className=" bottom-container-wrapper">
+        <hr />
+        <div className="bottom-container w-100 mt25 inline-between">
+          <div className="inline-between w-40  left-item-wrapper">
+            <p>Terms</p>
+            <p>Privacy</p>
+            <p>Cookies</p>
+            <p>Sitemap</p>
+          </div>
+          <div className="right-item-wrapper">
+            <p>Desined By @Aditya Singh </p>
+          </div>
+        </div>
       </div>
     </div>
   );
