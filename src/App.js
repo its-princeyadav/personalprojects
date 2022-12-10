@@ -6,6 +6,7 @@ import Firstfold from "./Component/Firstfold";
 import Secondfold from "./Component/Secondfold";
 import Aboutus from "../src/Component/Aboutus";
 import Slick from "../src/Component/Slickslider";
+import Thirdfold from "../src/Component/Thirdfold";
 function App() {
   return (
     <div className="App ">
@@ -14,6 +15,7 @@ function App() {
       <Secondfold />
       <Aboutus />
       <Slick />
+      <Thirdfold />
       <Footer />
     </div>
   );
