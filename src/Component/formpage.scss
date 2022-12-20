@@ -1,0 +1,97 @@
+@import url(../CommonClasses/base/base.scss);
+a {
+  text-decoration: none;
+  color: black;
+  font-size: 14px;
+  font-weight: 400;
+}
+.form-body-main-container {
+  margin: auto;
+  margin-top: 110px;
+  width: 95%;
+  display: flex;
+  justify-content: space-between;
+  max-width: 100%;
+  @media (max-width: 768px) {
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  .form-left-body {
+    width: 50%;
+    @media (max-width: 768px) {
+      width: 80%;
+    }
+    .form-contact-heading {
+      letter-spacing: 0.36em;
+      font-family: Syne;
+      font-size: 16px;
+      font-weight: 600;
+    }
+    .form-contact-big-heading {
+      font-family: Syne;
+      font-size: 64px;
+      line-height: 88px;
+      font-weight: 500;
+      width: 65%;
+      @media (max-width: 768px) {
+        width: 100%;
+      }
+    }
+    .contact-link-wrapper {
+      display: flex;
+      justify-content: flex-start;
+      gap: 46px;
+      padding-top: 35px;
+      align-items: center;
+      .location-div {
+        width: 50%;
+        @media (max-width: 550px) {
+          width: 100%;
+        }
+      }
+      .ed-icon {
+        display: block;
+        content: "";
+        width: 15px;
+        height: 15px;
+        background-repeat: no-repeat !important;
+      }
+      .phone {
+        background: url(../asests/icons/phone.svg);
+      }
+      .mail {
+        background: url(../asests/icons/mail.svg);
+      }
+      .location {
+        background: url(../asests/icons/location.svg);
+      }
+    }
+  }
+  .form-right-body {
+    width: 50%;
+    .name-form-place {
+      width: 100%;
+      border-top: none;
+      border-right: none;
+      border-left: none;
+      border-color: #efefef;
+    }
+    .gradiant-btn {
+      font-family: Syne;
+      margin-top: 48px;
+      border: 2px solid transparent;
+      border-radius: 20px;
+      background: linear-gradient(to right, white, white),
+        linear-gradient(to right, #b295f1, #0184ff);
+      background-clip: padding-box, border-box;
+      padding: 12px 52px;
+      background-origin: padding-box, border-box;
+      cursor: pointer;
+      &:hover {
+        background: linear-gradient(to right, #b295f1, #0184ff);
+        color: white;
+      }
+    }
+  }
+}
