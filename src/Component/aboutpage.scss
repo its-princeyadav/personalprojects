@@ -1,0 +1,48 @@
+@import url(../CommonClasses/base/base.scss);
+.about-page {
+  .about-first-container-wrapper {
+    padding-top: 150px;
+    .big-heading-bneed {
+      font-size: 64px;
+      font-weight: 600;
+      background: linear-gradient(90.36deg, #b295f1 -10.4%, #0184ff 110%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      font-family: "Syne", sans-serif;
+    }
+    .about-img-item-wrapper {
+      gap: 48px;
+      width: 100%;
+      margin-top: 70px;
+      .left-container {
+        width: 50%;
+        .aboutpage-img {
+          height: 446px;
+          img {
+            width: 100%;
+            height: auto;
+          }
+        }
+      }
+
+      .about-right-container-wrapper {
+        width: 50%;
+        p {
+          font-family: Syne;
+        }
+        .mid-headig {
+          &:nth-child(3n) {
+            width: 62%;
+          }
+          font-size: 36px;
+          font-weight: 600;
+        }
+        .right-last-content {
+          line-height: 32px;
+          color: #20202099;
+        }
+      }
+    }
+  }
+}

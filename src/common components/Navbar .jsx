@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import Logo from "../../src/asests/images/Bneed-logo.png";
 import Hamburger from "../asests/images/more.png";
+
 import "./navbar.scss";
 const Navbar = () => {
   const [showMediaIcons, setShowMediaIcons] = useState(false);
