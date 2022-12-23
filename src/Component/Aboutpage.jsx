@@ -26,6 +26,12 @@ const Aboutpage = () => {
             </p>
           </div>
         </div>
+        <p className="big-heading-bneed text-center value-heading">
+          Our Values
+        </p>
+        <div className="about-img-item-wrapper inline">
+          <div className="right-container"></div>
+        </div>
       </div>
     </div>
   );
