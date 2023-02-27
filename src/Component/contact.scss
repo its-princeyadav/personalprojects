@@ -1,0 +1,21 @@
+@import url(../CommonClasses/base/base.scss);
+.contact-us-container {
+  max-width: 100%;
+  width: 85%;
+  margin: auto;
+  padding-top: 150px;
+
+  .office-haeding {
+    font-family: "Syne", sans-serif;
+  }
+  .contact-us-heading {
+    font-size: 64px;
+    font-family: "Syne", sans-serif;
+    font-weight: 600;
+    padding-bottom: 72px;
+  }
+  .address-wrapper-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
