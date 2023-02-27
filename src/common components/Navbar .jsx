@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import Logo from "../../src/asests/images/Bneed-logo.png";
 import Hamburger from "../asests/images/more.png";
-
+import { NavLink } from "react-router-dom";
 import "./navbar.scss";
 const Navbar = () => {
   const [showMediaIcons, setShowMediaIcons] = useState(false);
@@ -25,9 +25,9 @@ const Navbar = () => {
       >
         <ul className="nav-link-wrapper">
           <li className="nav-item">
-            <a className="nav-item-div home-active" href="#">
+            <NavLink className="nav-item-div home-active" to="/">
               Home
-            </a>
+            </NavLink>
           </li>
           <li className="nav-item ">
             <a className="nav-item-div" href="#">
@@ -35,9 +35,9 @@ const Navbar = () => {
             </a>
           </li>
           <li className="nav-item ">
-            <a className="nav-item-div" href="#">
+            <NavLink className="nav-item-div" to="/Aboutpage">
               About Us
-            </a>
+            </NavLink>
           </li>
           <li className="nav-item ">
             <a className="nav-item-div" href="#">
