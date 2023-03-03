@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Logo from "../../src/asests/images/Bneed-logo.png";
+import Logo from "../../src/asests/images/marvel1.png";
 import Hamburger from "../asests/images/more.png";
 import { NavLink } from "react-router-dom";
 import "./navbar.scss";
@@ -9,7 +9,7 @@ const Navbar = () => {
     <nav className="main-nav">
       {/* 1st logo part  */}
       <div className="logo">
-        <img src={Logo} alt="" />
+        <img className="logo-child" src={Logo} alt="" />
       </div>
       {/* hamburget menu start  */}
 

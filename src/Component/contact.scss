@@ -4,6 +4,9 @@
   width: 85%;
   margin: auto;
   padding-top: 150px;
+  @media (max-width: 768px) {
+    width: 92%;
+  }
 
   .office-haeding {
     font-family: "Syne", sans-serif;
@@ -13,9 +16,85 @@
     font-family: "Syne", sans-serif;
     font-weight: 600;
     padding-bottom: 72px;
+    @media (max-width: 768px) {
+      font-size: 42px;
+    }
   }
   .address-wrapper-container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 210px;
+    @media (max-width: 1024px) {
+      grid-column-gap: 80px;
+    }
+    @media (max-width: 768px) {
+      grid-template-columns: 1fr 1fr;
+      grid-row-gap: 40px;
+      grid-column-gap: 20px;
+    }
+    @media (max-width: 550px) {
+      grid-template-columns: 1fr;
+      grid-row-gap: 40px;
+      grid-column-gap: 20px;
+    }
+  }
+  .map-form-main-wrapper {
+    padding-top: 160px;
+    justify-content: flex-start;
+    gap: 119px;
+    width: 100%;
+    @media (max-width: 768px) {
+      display: block;
+    }
+    .main-right-form {
+      width: 50%;
+      display: flex;
+      flex-direction: column;
+      justify-content: end;
+      @media (max-width: 768px) {
+        width: 80%;
+        margin-top: 10px;
+      }
+      .form-right-body {
+        width: 100%;
+        .name-form-place {
+          width: 100%;
+          border-top: none;
+          border-right: none;
+          border-left: none;
+          border-color: #efefef;
+        }
+        .gradiant-btn {
+          font-family: Syne;
+          margin-top: 48px;
+          border: 2px solid transparent;
+          border-radius: 20px;
+          background: linear-gradient(to right, white, white),
+            linear-gradient(to right, #b295f1, #0184ff);
+          background-clip: padding-box, border-box;
+          padding: 12px 52px;
+          background-origin: padding-box, border-box;
+          cursor: pointer;
+          &:hover {
+            background: linear-gradient(to right, #b295f1, #0184ff);
+            color: white;
+          }
+        }
+      }
+    }
+    .map-div {
+      width: 50%;
+      @media (max-width: 768px) {
+        width: 80%;
+      }
+      @media (max-width: 550px) {
+        width: 100%;
+      }
+      .main-map {
+        width: 100%;
+        border-radius: 16px;
+        border: none;
+      }
+    }
   }
 }

@@ -1,31 +1,32 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;500;600;700;800;900&family=Syne:wght@400;500;600;700;800&display=swap");
 @import url(../CommonClasses/base/base.scss);
 .container {
-  // width: 95%;
-  // max-width: 100%;
-  // margin: auto;
-
   .body-main-container {
-    width: 92%;
-    max-width: 100%;
-    margin: auto;
-    @media (max-width: 550px) {
-      width: 100%;
-    }
+    // width: 92%;
+    // max-width: 100%;
+    // margin: auto;
+    // @media (max-width: 550px) {
+    //   width: 100%;
+    // }
     .top-container {
       display: flex;
+      gap: 50px;
       justify-content: space-between;
-      width: 100%;
+      width: 95%;
+      margin-top: 100px;
+      @media (max-width: 650px) {
+        flex-direction: column;
+      }
       .left-body-conatiner {
         width: 50%;
-        padding-top: 196px;
         @media (max-width: 992px) {
           width: 55%;
           padding-top: 110px;
         }
         @media (max-width: 650px) {
+          order: 2;
           width: 100%;
-          padding-top: 110px;
+          padding-top: 70px;
         }
         .contact-us-btn {
           cursor: pointer;
@@ -79,7 +80,8 @@
         width: 50%;
         z-index: -1;
         @media (max-width: 650px) {
-          display: none;
+          width: 100%;
+          order: 1;
         }
         img {
           width: 100%;

@@ -1,7 +1,7 @@
 import React from "react";
 import "./firstfold.scss";
 // partners image
-import Image1 from "../asests/images/Image-1.png";
+import Image1 from "../asests/images/marvel-3.jpg";
 import Partner1 from "../asests/images/partner1.png";
 import Partner2 from "../asests/images/partner2.png";
 import Partner3 from "../asests/images/partner3.png";
@@ -14,13 +14,12 @@ const Firstfold = () => {
       <div className="body-main-container mt1">
         <div className="top-container">
           <div className="left-body-conatiner">
-            <p className="bneed-heading-2">BNEED</p>
+            <p className="bneed-heading-2">MARVEL STUDIOS</p>
             <p className=" big-heading-bneed ">
-              A New Era Of Our Digital Business Platform
+              The Truth Is IronMan - TONY STARK,
             </p>
             <p className="container-item-2 mt15 text-xxs ">
-              We work with you to transform your organization, driving bold
-              ideas and pragmatic solutions.
+              Fight for Universe and save it and make proud to avengers .
             </p>
             <button className=" contact-us-btn  ">CONTACT US</button>
           </div>
