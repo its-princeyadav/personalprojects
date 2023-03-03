@@ -1,6 +1,6 @@
 import React from "react";
 import "./footer.scss";
-import Logo from "../asests/images/Bneed-logo-2.png";
+import Logo from "../asests/images/marvel2.png";
 const Footer = () => {
   return (
     <div className="footer-container">
@@ -8,24 +8,26 @@ const Footer = () => {
         <div className="first-iner-container">
           <div className="logo-div-container-wrapper">
             <div className="logo-img-wrapper">
-              <img src={Logo} alt="" />
+              <img className="logo-div" src={Logo} alt="" />
             </div>
             <div className="logo-content-wrapper">
-              <p className="logo-name">B-need</p>
-              <p className="mini-heading">Endless & Beyond</p>
+              <p className="logo-name">MARVELS</p>
+              <p className="mini-heading">Lets Have Some Thunder </p>
             </div>
           </div>
           <p className="mt25 bneed-footer-text">
-            Bneed Learning Management System is designed to help institutions
+            Marvels app is used to make entertainment of all over the world its
+            gives many super heroes to all over the world they save whole wolrd
+            {/* Bneed Learning Management System is designed to help institutions
             operate more efficiently. It is loaded with features for institutes
-            to ensure flawless academic and administrative activities.
+            to ensure flawless academic and administrative activities. */}
           </p>
         </div>
         <div className="second-inner-container">
           <p className="company-first-heading">Company</p>
-          <p>Webneed</p>
-          <p>Edneed</p>
-          <p>Brandneed</p>
+          <p>Thor </p>
+          <p>Locky</p>
+          <p>IronMan </p>
         </div>
         <div className="quick-link-container second-inner-container">
           <p className="company-first-heading">Quick Links</p>
