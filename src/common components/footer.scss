@@ -29,6 +29,7 @@
       }
       .logo-div-container-wrapper {
         display: flex;
+        flex-wrap: wrap;
         width: fit-content;
         gap: 26px;
         align-items: center;

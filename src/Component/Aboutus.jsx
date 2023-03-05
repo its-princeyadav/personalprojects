@@ -23,7 +23,7 @@ const Aboutus = () => {
           Our Stisfied
         </p>
         <p className="gradiant-word-2 text-center  about-us-heading w600 mb50">
-          Customers
+          Viewrs
         </p>
       </div>
     </div>

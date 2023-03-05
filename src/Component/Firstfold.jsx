@@ -2,12 +2,12 @@ import React from "react";
 import "./firstfold.scss";
 // partners image
 import Image1 from "../asests/images/marvel-3.jpg";
-import Partner1 from "../asests/images/partner1.png";
-import Partner2 from "../asests/images/partner2.png";
-import Partner3 from "../asests/images/partner3.png";
-import Partner4 from "../asests/images/partner4.png";
-import Partner5 from "../asests/images/partner5.png";
-import Partner6 from "../asests/images/partner6.png";
+// import Partner1 from "../asests/images/partner1.png";
+// import Partner2 from "../asests/images/partner2.png";
+// import Partner3 from "../asests/images/partner3.png";
+// import Partner4 from "../asests/images/partner4.png";
+// import Partner5 from "../asests/images/partner5.png";
+// import Partner6 from "../asests/images/partner6.png";
 const Firstfold = () => {
   return (
     <div className="container">
@@ -27,7 +27,7 @@ const Firstfold = () => {
             <img src={Image1} alt="" />
           </div>
         </div>
-        <div className="partner-container  inline-between">
+        {/* <div className="partner-container  inline-between">
           <div>
             <img src={Partner1} alt="" />
           </div>
@@ -46,7 +46,7 @@ const Firstfold = () => {
           <div>
             <img src={Partner6} alt="" />
           </div>
-        </div>
+        </div> */}
       </div>
     </div>
   );

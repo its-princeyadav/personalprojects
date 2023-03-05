@@ -40,7 +40,7 @@ const Contact = () => {
             ></iframe>
           </div>
           <div className="main-right-form">
-            <p className="text-md w500 office-haeding">GET IN TOUCH</p>
+            <p className="text-md w500 office-haeding">Track US </p>
             <div className="form-right-body  pt35">
               <p className="text-xs w400">Name</p>
               <input

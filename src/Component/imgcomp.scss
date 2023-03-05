@@ -1,6 +1,10 @@
 @import url(../CommonClasses/base/base.scss);
 .card-image {
-  width: 100%;
+  width: 251px;
+  height: 300px;
+  border-radius: 327px;
+  object-fit: cover;
+  object-position: top;
 }
 .dezginaton-div {
   color: rgba(32, 32, 32, 0.6);
