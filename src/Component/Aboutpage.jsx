@@ -43,14 +43,14 @@ const Aboutpage = () => {
               Honesty is the best policy. At Edneed, we believe that one should
               observe honesty with their work, peers, society but most
               importantly themselves. Because it is us who are most affected by
-              our actions.
+              our actions.kjefrbiherufnkbib
             </p>
             <p className="left-item-heading">Providing Peace</p>
             <p className="mt20 left-item-content text-xs w400 mb50  ">
               We believe that the greatest privilege in life is to have access
               to an exemplary mentor. Edneed is our step towards making the
               world a level plain field, as quality education is fundamental to
-              development.
+              development.rkjierh
             </p>
             <p className="left-item-heading">Spread Happiness</p>
             <p className="mt20 left-item-content text-xs w400 mb50  ">
